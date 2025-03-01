@@ -56,7 +56,7 @@
                             src="./assets/checkbox.png" alt=""></div>
                     <div class="">
                         <small>Task Assigned</small>
-                        <p class="font-bold text-2xl">05</p>
+                        <p id="taskAssigned" class="font-bold text-2xl">06</p>
                     </div>
                 </div>
                 <div class="col-span-2 p-5 rounded-xl bg-linear-to-r from-blue-500 to-purple-500 flex gap-4 ">
@@ -79,7 +79,7 @@
             <div class="grid grid-cols-3 gap-5">
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">ShopEase</button>
-                    <h1 class="text-xl font-medium">Fix Mobile Button Issue </h1>
+                    <h1 class="text-xl font-medium cardHeading">Fix Mobile Button Issue </h1>
                     <div class="bg-white p-2 text-gray-500 h-[70px] ">
                         <p class="text-sm">Debug using Chrome DevTools, check for overlapping</p>
                     </div>
@@ -88,12 +88,12 @@
                             <small>Deadline</small>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="btn1" class="btn bg-blue-600 text-white completeButton">Completed</button>
                     </div>
                 </div>
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">CloudSync</button>
-                    <h1 class="text-xl font-medium">Add Dark Mode </h1>
+                    <h1 class="text-xl font-medium cardHeading">Add Dark Mode </h1>
                     <div class="bg-white p-2 text-gray-500 h-[70px] ">
                         <p class="text-sm">Store the user's preference in localStorage, update CSS </p>
                     </div>
@@ -102,12 +102,12 @@
                             <small>Deadline</small>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="btn2" class="btn bg-blue-600 text-white completeButton">Completed</button>
                     </div>
                 </div>
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">SwiftPay</button>
-                    <h1 class="text-xl font-medium">Optimize Home page</h1>
+                    <h1 class="text-xl font-medium cardHeading">Optimize Home page</h1>
                     <div class="bg-white p-2 text-gray-500 h-[70px] ">
                         <p class="text-sm">Debug using Chrome DevTools, check for overlapping elements</p>
                     </div>
@@ -116,12 +116,12 @@
                             <small>Deadline</small>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="btn3" class="btn bg-blue-600 text-white completeButton">Completed</button>
                     </div>
                 </div>
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">Meta</button>
-                    <h1 class="text-xl font-medium">Add new emoji 🤲</h1>
+                    <h1 class="text-xl font-medium cardHeading">Add new emoji 🤲</h1>
                     <div class="bg-white p-2 text-gray-500 h-[70px] ">
                         <p class="text-sm">Debug using Chrome DevTools, check for overlapping</p>
                     </div>
@@ -130,12 +130,12 @@
                             <small>Deadline</small>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="btn4" class="btn bg-blue-600 text-white completeButton">Completed</button>
                     </div>
                 </div>
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">Google LLC</button>
-                    <h1 class="text-xl font-medium">Integrate OpenAI API </h1>
+                    <h1 class="text-xl font-medium cardHeading">Integrate OpenAI API </h1>
                     <div class="bg-white p-2 text-gray-500 h-[70px] ">
                         <p class="text-sm">Debug using Chrome DevTools, check for overlapping</p>
                     </div>
@@ -144,12 +144,12 @@
                             <small>Deadline</small>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="btn5" class="btn bg-blue-600 text-white completeButton">Completed</button>
                     </div>
                 </div>
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">Glassdoar</button>
-                    <h1 class="text-xl font-medium">Improve Job searching </h1>
+                    <h1 class="text-xl font-medium cardHeading">Improve Job searching </h1>
                     <div class="bg-white p-2 text-gray-500 h-[70px] ">
                         <p class="text-sm">Debug using Chrome DevTools, check for overlapping</p>
                     </div>
@@ -158,7 +158,7 @@
                             <small>Deadline</small>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <button class="btn bg-blue-600 text-white">Completed</button>
+                        <button id="btn6" class="btn bg-blue-600 text-white completeButton">Completed</button>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,9 @@
             <section class="activities"></section>
         </div>
     </main>
-    <footer></footer>
+    <!-- js files are added -->
+     <script src="./utilities.js"></script>
+     <script src="./taskComplete.js"></script>
 </body>
 
 </html>
