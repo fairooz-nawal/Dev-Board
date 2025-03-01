@@ -25,6 +25,10 @@ for (let i = 0; i < completeButton.length; i++) {
     })
 }
 
+// clearing history
+  document.getElementById('clearHistory').addEventListener('click',function(){
+      activitySection.innerHTML= '';
+  })
 
 
 

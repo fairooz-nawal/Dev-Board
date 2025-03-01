@@ -23,7 +23,7 @@ function noticeAdder(addActivity, header) {
 
     const noticediv = document.createElement('div');
     const notice = document.createElement('p');
-    notice.innerText = `You have Completed the Task ${header} issued at ${n}`;
+    notice.innerText = `You have Completed the Task ${header} at ${n}`;
     noticediv.appendChild(notice);
     noticediv.classList.add('bg-blue-50','p-5','rounded-xl','mb-3');
     addActivity.appendChild(noticediv);
