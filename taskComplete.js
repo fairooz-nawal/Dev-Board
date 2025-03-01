@@ -34,7 +34,7 @@ for (let i = 0; i < completeButton.length; i++) {
       activitySection.innerHTML= '';
   })
 
-// 
+// adding background color
 document.getElementById('theme').addEventListener('click',function(){
     document.body.classList.remove('bg-blue-50','bg-green-100','bg-red-100','bg-yellow-100');
     const colors = ['bg-blue-50','bg-green-100','bg-red-100','bg-yellow-100'];

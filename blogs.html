@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- daisyui CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="poppins bg-blue-50 py-5">
+    <header class="max-w-7xl mx-auto">
+        <nav class="pb-5">
+            <div class="navbar bg-base-100 shadow-sm rounded-xl flex justify-between p-2">
+                <div class="flex items-center">
+                    <button class="">
+                        <div class="w-[40px]"><img class="w-full" src="./assets/logo.png" alt="" srcset=""></div>
+                    </button>
+                    <a class="pl-2 text-2xl">Dev <span class="font-extrabold">Board</span></a>
+                </div>
+                <div class="w-[170px] flex items-center justify-between ">
+                    <a href="./index.html"><button class="btn btn-primary">Back to Desk</button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="max-w-7xl mx-auto">
+        <h1 class="text-xl font-bold text-center">Blogs</h1><br>
+        <div class="bg-white rounded-xl p-5 mb-5">
+            <h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
+            </h1><br>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
+            <p>An element can be selected using the following ways </p>
+            <ul>
+                <li>Using getElementById.</li>
+                <li>Using getElementsByClassName.</li>
+                <li>Using getElementsByTagName.</li>
+                <li>Using querySelector.</li>
+                <li>Using querySelectorAll.</li>
+            </ul>
+        </div>
+        <div class="bg-white rounded-xl p-5 mb-5">
+            <h1 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+            </h1><br>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
+            <p>"InnerHTML" is the complete HTML content within an element, including tags, "innerText" is the visible text content of an element, ignoring HTML tags and hidden text and "textContent" is all text content within an element, including hidden text, but without considering HTML tags or styling, preserving whitespace and line breaks </p>
+        </div>
+        <div class="bg-white rounded-xl p-5 mb-5">
+            <h1 class="text-xl font-bold">Question-3: What is event delegation in the DOM?
+            </h1><br>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
+            <p>Event delegation means the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. </p>
+        </div>
+        <div class="bg-white rounded-xl p-5 mb-5">
+            <h1 class="text-xl font-bold">Question-4: What is event bubbling in the DOM?
+            </h1><br>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
+            <p>Event bubbling is a type of DOM event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element </p>
+        </div>
+        <div class="bg-white rounded-xl p-5 mb-5">
+            <h1 class="text-xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
+            </h1><br>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
+            <p>To add, remove, and modify HTML elements using JavaScript, you can use methods like createElement , appendChild , removeChild , and properties like innerHTML and textContent  </p>
+        </div>
+    </main>
+</body>
+
+</html>

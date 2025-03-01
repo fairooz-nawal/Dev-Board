@@ -59,13 +59,16 @@
                         <p id="taskAssigned" class="font-bold text-2xl">06</p>
                     </div>
                 </div>
-                <div class="col-span-2 p-5 rounded-xl bg-linear-to-r from-blue-500 to-purple-500 flex gap-4 ">
-                    <div class="w-[60px] border-2 border-gray-300 border-dashed"><img class="w-full"
-                            src="./assets/board.png" alt=""></div>
-                    <div class="">
-                        <p class="font-medium text-white">Discover Something <br> New Today!</p>
+                <a class="col-span-2" href="./blogs.html">
+                    <div class=" p-5 rounded-xl bg-linear-to-r from-blue-500 to-purple-500 flex gap-4 ">
+                        <div class="w-[60px] border-2 border-gray-300 border-dashed"><img class="w-full"
+                                src="./assets/board.png" alt=""></div>
+                        <div class="">
+                            <p class="font-medium text-white">Discover Something <br> New Today!</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+
                 <div class="bg-blue-50 p-5 rounded-xl flex justify-between">
                     <div class="w-[50px] h-[50px] bg-white rounded-full p-3"><img class="w-full"
                             src="./assets/calender.png" alt=""></div>
@@ -162,21 +165,22 @@
                 </div>
             </div>
         </div>
-        <div  class="col-span-1 bg-white p-5 rounded-xl ">
+        <div class="col-span-1 bg-white p-5 rounded-xl ">
             <section class="">
                 <div class="w-1/2 mx-auto flex gap-2 mb-2">
                     <img class="border border-dashed border-gray-500" src="./assets/activity.png" alt="">
                     <p class="font-medium">Activity Log</p>
                 </div>
-                <div class="w-1/2 mx-auto mb-5"><button id="clearHistory" class="btn bg-blue-600  text-white">Clear History</button></div>
+                <div class="w-1/2 mx-auto mb-5"><button id="clearHistory" class="btn bg-blue-600  text-white">Clear
+                        History</button></div>
             </section>
             <hr class="border-1 border-dashed border-gray-200 mb-5">
             <section id="activity"></section>
         </div>
     </main>
     <!-- js files are added -->
-     <script src="./utilities.js"></script>
-     <script src="./taskComplete.js"></script>
+    <script src="./utilities.js"></script>
+    <script src="./taskComplete.js"></script>
 </body>
 
 </html>
