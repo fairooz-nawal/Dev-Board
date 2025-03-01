@@ -39,7 +39,8 @@
                     <a class="pl-2 text-2xl">Dev <span class="font-extrabold">Board</span></a>
                 </div>
                 <div class="w-[170px] flex items-center justify-between ">
-                    <div class="flex gap-3 bg-blue-50 rounded-4xl  px-3 py-2"><img class="" src="./assets/checkbox.png" alt="">
+                    <div class="flex gap-3 bg-blue-50 rounded-4xl  px-3 py-2"><img class="" src="./assets/checkbox.png"
+                            alt="">
                         <span class="text-xl font-extrabold">23</span>
                     </div>
                     <div class="bg-blue-50 rounded-full p-2"><img src="./assets/theme-btn.png" alt=""></div>
@@ -49,28 +50,32 @@
     </header>
     <main class="max-w-7xl mx-auto grid grid-cols-4 gap-5 ">
         <div class="col-span-3 bg-white p-5 rounded-xl">
-            <div class="grid grid-cols-4 gap-5 mb-10">
+            <div class="grid grid-cols-4 gap-5 mb-5">
                 <div class="bg-blue-50 p-5 rounded-xl flex justify-between">
-                    <div class="w-[50px] h-[50px] bg-white rounded-full p-3"><img class="w-full" src="./assets/checkbox.png" alt=""></div>
+                    <div class="w-[50px] h-[50px] bg-white rounded-full p-3"><img class="w-full"
+                            src="./assets/checkbox.png" alt=""></div>
                     <div class="">
                         <small>Task Assigned</small>
                         <p class="font-bold text-2xl">05</p>
                     </div>
                 </div>
                 <div class="col-span-2 p-5 rounded-xl bg-linear-to-r from-blue-500 to-purple-500 flex gap-4 ">
-                    <div class="w-[60px] border-2 border-gray-300 border-dashed"><img class="w-full" src="./assets/board.png" alt=""></div>
+                    <div class="w-[60px] border-2 border-gray-300 border-dashed"><img class="w-full"
+                            src="./assets/board.png" alt=""></div>
                     <div class="">
                         <p class="font-medium text-white">Discover Something <br> New Today!</p>
                     </div>
                 </div>
                 <div class="bg-blue-50 p-5 rounded-xl flex justify-between">
-                    <div class="w-[50px] h-[50px] bg-white rounded-full p-3"><img class="w-full" src="./assets/calender.png" alt=""></div>
+                    <div class="w-[50px] h-[50px] bg-white rounded-full p-3"><img class="w-full"
+                            src="./assets/calender.png" alt=""></div>
                     <div class="">
                         <small>Wed ,</small>
                         <p class="font-bold">Jul 28 2025 </p>
                     </div>
                 </div>
             </div>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
             <div class="grid grid-cols-3 gap-5">
                 <div class="bg-blue-50 p-5 rounded-xl space-y-3">
                     <button class="px-5 py-2 bg-white rounded-xl">ShopEase</button>
@@ -158,7 +163,17 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-1 "></div>
+        <div class="col-span-1 bg-white p-5 rounded-xl ">
+            <section class="">
+                <div class="w-1/2 mx-auto flex gap-2 mb-2">
+                    <img class="border border-dashed border-gray-500" src="./assets/activity.png" alt="">
+                    <p class="font-medium">Activity Log</p>
+                </div>
+                <div class="w-1/2 mx-auto mb-5"><button class="btn bg-blue-600  text-white">Clear History</button></div>
+            </section>
+            <hr class="border-1 border-dashed border-gray-200 mb-5">
+            <section class="activities"></section>
+        </div>
     </main>
     <footer></footer>
 </body>
