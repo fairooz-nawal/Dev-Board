@@ -1,6 +1,6 @@
 function minimizer(task) {
     if (task == 1) {
-        alert("All Task Completed");
+        alert("Congrats! You have completed all the tasks");
         return 0;
     }
     else {
@@ -13,19 +13,15 @@ function stringToInt(str) {
 }
 
 function noticeAdder(addActivity, header) {
-    
-    let date = new Date();
-
-    let n = date.toLocaleString([], {
-        hour: "2-digit",
-        minute: "2-digit",
-    });
-
     const noticediv = document.createElement('div');
+
     const notice = document.createElement('p');
-    notice.innerText = `You have Completed the Task ${header} at ${n}`;
+    notice.innerText = `You have Completed the Task ${header} at ${new Date().toLocaleTimeString()}`;
+
     noticediv.appendChild(notice);
     noticediv.classList.add('bg-blue-50','p-5','rounded-xl','mb-3');
+
     addActivity.appendChild(noticediv);
 
 }
+
