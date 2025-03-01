@@ -8,6 +8,10 @@ for (let i = 0; i < completeButton.length; i++) {
         alert("Board Updated Successfully");
         completeButton[i].setAttribute('disabled', true);
 
+        // changing the points in header
+        let Currentpoint = document.getElementById('points').innerText;
+        let currentPointInt = stringToInt(Currentpoint);
+        document.getElementById('points').innerText = currentPointInt + 1;
         // changing the total task number
         let taskAssignedStr = document.getElementById('taskAssigned').innerText;
         let taskAssignedInt = stringToInt(taskAssignedStr);
